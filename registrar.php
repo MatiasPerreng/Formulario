@@ -12,6 +12,7 @@ $especificacion = trim($_POST['especificacion']);
 $consulta = "INSERT INTO `medico`(Cedula, Nombre, Apellido, Especificacion) VALUES ('$cedula','$nombre','$apellido','$especificacion')";
 $resultado = mysqli_query($conex,$consulta);
 
+
 }
 }
 ?>
