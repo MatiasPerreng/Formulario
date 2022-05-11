@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="datos.php" method="post" class="form">
+    <form method="post" class="form">
         
 Cedula: <input type="number" name="cedula" placeholder="Cedula" class="input">
 <br>
@@ -20,6 +20,7 @@ Especificación: <input type="text" name="especificacion" placeholder="Especific
 <br>
  <input type="submit" name="enviar" class="btn">
     </form>
+    
     <?php 
 
     include("registrar.php");
