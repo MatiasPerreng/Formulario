@@ -22,8 +22,8 @@ Especificación: <input type="text" name="especificacion" placeholder="Especific
     </form>
     <?php 
 
-    include(register.php);
-    
+    include("registrar.php");
+
     ?>
 </body>
 </html>
