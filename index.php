@@ -20,6 +20,10 @@ Especificación: <input type="text" name="especificacion" placeholder="Especific
 <br>
  <input type="submit" name="enviar" class="btn">
     </form>
+    <?php 
+
+    include(register.php);
     
+    ?>
 </body>
 </html>
