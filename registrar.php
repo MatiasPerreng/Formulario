@@ -1,7 +1,7 @@
 <?php
 
-include("con_db.php");
 
+$conex = mysqli_connect("localhost","root","","registro");
 
 if(isset($_POST['enviar'])){
 if(strlen($_POST['cedula']) >= 1 && strlen($_POST['nombre']) >= 1 && strlen($_POST['apellido']) >= 1 && strlen($_POST['especificacion']) >= 1) {
