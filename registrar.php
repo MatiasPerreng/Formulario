@@ -14,4 +14,18 @@ $resultado = mysqli_query($conex,$consulta);
 
 }
 }
+
+/* <?php
+
+if(isset($_POST['cedula']) && isset($_POST['nombre']) && isset($_POST['apellido']) && isset($_POST['especificacion'])) {
+$cedula = trim($_POST['cedula']);
+$nombre = trim($_POST['nombre']);
+$apellido = trim($_POST['apellido']);
+$especificacion = trim($_POST['especificacion']);
+echo "Bievenido " . $nombre;
+
+}
+
+?>
+ */
 ?>
